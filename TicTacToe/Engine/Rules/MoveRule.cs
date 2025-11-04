@@ -37,7 +37,7 @@ namespace TicTacToe.Engine.Rules
         {
             bool result = grid[row, column] == CellType.Empty;
 
-            Console.WriteLine($"..rule {nameof(MoveRule)}: test 'grid[row, column] == CellType.Empty' = {result}");
+            Console.WriteLine($"..rule {nameof(MoveRule)}: test 'grid[{row}, {column}] == CellType.Empty' = {result}");
 
             return result;
         }
